@@ -2,12 +2,16 @@ import React from 'react';
 import './App.css';
 
 import Header from './header.js'
+import BurgerKing from './BurgerJoints/BurgerKing';
+import McDonalds from './BurgerJoints/McDonalds';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      hello world
+      
+      <BurgerKing burgerName={"Whopper!"} />
+      <McDonalds burgerName={"Big Mac!"} />
     </div>
   );
 }
