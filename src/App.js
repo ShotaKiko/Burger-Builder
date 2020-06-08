@@ -4,6 +4,7 @@ import './App.css';
 import Header from './header.js'
 import BurgerKing from './BurgerJoints/BurgerKing';
 import McDonalds from './BurgerJoints/McDonalds';
+import Wendys from './BurgerJoints/Wendys';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       
       <BurgerKing burgerName={"Whopper!"} />
       <McDonalds burgerName={"Big Mac!"} />
+      <Wendys burgerName={"Square Burgers!"} />
     </div>
   );
 }
