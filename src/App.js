@@ -6,6 +6,7 @@ import BurgerKing from './BurgerJoints/BurgerKing';
 import McDonalds from './BurgerJoints/McDonalds';
 import Wendys from './BurgerJoints/Wendys';
 import Whataburger from './BurgerJoints/Whataburger';
+import InNOutBurger from './BurgerJoints/InNOutBurger';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <McDonalds burgerName={"Big Mac!"} />
       <Wendys burgerName={"Square Burgers!"} />
       <Whataburger />
+      <InNOutBurger />
     </div>
   );
 }
