@@ -1,3 +1,8 @@
 .App {
   text-align: center;
 }
+
+.retaurantContainer{
+  width: 50%;
+  margin: auto;
+}

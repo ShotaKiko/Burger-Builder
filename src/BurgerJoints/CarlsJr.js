@@ -1,16 +1,15 @@
 import React, { useState } from 'react'
 import './BurgerJoints.css'
 
-
-function InNOutBurger() {
-    const [burgerName, setBurgerName] = useState("____________?")
+function CarlsJr(){
+    const [burgerName, setBurgerName] = useState("________________?")
 
     const handleChange = e =>{
         setBurgerName(e.target.value)
     }
     return(
-        <div className="inNOutContainer"> 
-            <h2>In-N-Out Burger</h2>
+        <div className="CarlsContainer"> 
+            <h2>Carl's Jr.</h2>
             <h4>Home of the {burgerName}</h4>
 
             <input
@@ -21,8 +20,7 @@ function InNOutBurger() {
                 placeholder="Signature Burger Name"
             />
         </div> 
-
     )
 }
 
-export default InNOutBurger
+export default CarlsJr

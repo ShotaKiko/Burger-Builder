@@ -3,7 +3,7 @@ import './header.css';
 
 function Header() {
     return (
-      <section className="headerBar">
+      <section className="headerBar" style={{width:"100%"}}>
         <h1>
             Burger Builder App
         </h1>

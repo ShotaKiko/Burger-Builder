@@ -7,16 +7,20 @@ import McDonalds from './BurgerJoints/McDonalds';
 import Wendys from './BurgerJoints/Wendys';
 import Whataburger from './BurgerJoints/Whataburger';
 import InNOutBurger from './BurgerJoints/InNOutBurger';
+import CarlsJr from './BurgerJoints/CarlsJr';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <BurgerKing burgerName={"Whopper!"} />
-      <McDonalds burgerName={"Big Mac!"} />
-      <Wendys burgerName={"Square Burgers!"} />
-      <Whataburger />
-      <InNOutBurger />
+      <div className="retaurantContainer">
+        <BurgerKing burgerName={"Whopper!"} />
+        <McDonalds burgerName={"Big Mac!"} />
+        <Wendys burgerName={"Square Burgers!"} />
+        <Whataburger />
+        <InNOutBurger />
+        <CarlsJr />
+      </div>
     </div>
   );
 }
