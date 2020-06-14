@@ -2,55 +2,60 @@
     /* border: 2px solid red; */
     color: slateblue;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px slateblue;
     border-radius: 5px;
     padding-bottom: 5px;
+    width: 35%;
 }
 
 .mcdonaldsContainer{
     /* border: 1px solid blue; */
     color: darkgoldenrod;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px darkgoldenrod;
     border-radius: 5px;
     padding-bottom: 5px;
+    width: 35%;
 }
 
 .wendysContainer{
     color: darkred;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px darkred;
     border-radius: 5px;
     padding-bottom: 5px;
+    width: 35%;
 }
 
 .whataburgerContainer{
     color: orangered;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px orangered;
     border-radius: 5px;
     padding-bottom: 5px;
-
+    width: 35%;
 }
 
 .inNOutContainer{
     color: peru;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px peru;
     border-radius: 5px;
     padding-bottom: 5px;
+    width: 35%;
 }
 
 .CarlsContainer{
     color: red;
     border: 1px solid #eee;
-    margin-top: 1vh;
+    margin: 1vh;
     box-shadow: 0px 3px 5px red;
     border-radius: 5px;
     padding-bottom: 5px;
+    width: 35%;
 }

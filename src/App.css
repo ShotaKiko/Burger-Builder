@@ -3,6 +3,10 @@
 }
 
 .retaurantContainer{
-  width: 50%;
-  margin: auto;
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8vh;
 }
