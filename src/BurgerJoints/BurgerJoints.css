@@ -59,3 +59,23 @@
     padding-bottom: 5px;
     width: 35%;
 }
+
+.whiteCastleContainer{
+    color: skyblue;
+    border: 1px solid #eee;
+    margin: 1vh;
+    box-shadow: 0px 3px 5px skyblue;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    width: 35%;
+}
+
+.redRobinContainer{
+    color: #800020;
+    border: 1px solid #eee;
+    margin: 1vh;
+    box-shadow: 0px 3px 5px #800020;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    width: 35%;
+}

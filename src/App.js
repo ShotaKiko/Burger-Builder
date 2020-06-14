@@ -8,6 +8,8 @@ import Wendys from './BurgerJoints/Wendys';
 import Whataburger from './BurgerJoints/Whataburger';
 import InNOutBurger from './BurgerJoints/InNOutBurger';
 import CarlsJr from './BurgerJoints/CarlsJr';
+import RedRobin from './BurgerJoints/RedRobin';
+import WhiteCastle from './BurgerJoints/WhiteCastle';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Whataburger />
         <InNOutBurger />
         <CarlsJr />
+        <RedRobin />
+        <WhiteCastle />
       </div>
     </div>
   );
