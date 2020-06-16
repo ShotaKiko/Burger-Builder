@@ -10,6 +10,7 @@ import InNOutBurger from './BurgerJoints/InNOutBurger';
 import CarlsJr from './BurgerJoints/CarlsJr';
 import RedRobin from './BurgerJoints/RedRobin';
 import WhiteCastle from './BurgerJoints/WhiteCastle';
+import PizzaJoints from './PizzaParlors/PizzaJoints';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <CarlsJr />
         <RedRobin />
         <WhiteCastle />
+        <PizzaJoints />
       </div>
     </div>
   );
