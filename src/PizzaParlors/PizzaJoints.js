@@ -18,8 +18,15 @@ class PizzaJoints extends React.Component{
             showPizza: !showComponent
         })
     }
+
     
     render(){
+        const styling ={
+            border:"2px solid red",
+            color:"whitesmoke",
+            backgroundColor:"steelblue"
+        }
+
         let pizzaSection = null;
         
 
@@ -35,10 +42,11 @@ class PizzaJoints extends React.Component{
                     })} 
                 </div>
             )
+            styling.backgroundColor = "green"
         }
         return(
             <div className="pizzeriaContainer">
-                <button onClick={this.clickHandler}>See the pizza</button>
+                <button style={styling} onClick={this.clickHandler}>See the pizza</button>
                 {pizzaSection}
             </div>
         )
