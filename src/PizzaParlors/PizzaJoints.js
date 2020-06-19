@@ -22,9 +22,10 @@ class PizzaJoints extends React.Component{
     
     render(){
         const styling ={
-            border:"2px solid red",
             color:"whitesmoke",
-            backgroundColor:"steelblue"
+            backgroundColor:"steelblue",
+            width:"10%",
+            height:"40px"
         }
 
         let pizzaSection = null;
@@ -44,10 +45,21 @@ class PizzaJoints extends React.Component{
             )
             styling.backgroundColor = "green"
         }
+        
+        let pizzaStyling = []
+        if (this.state.pizzaParlors.length >= 3 ) {
+            pizzaStyling.push("fullList")
+        }
+        if (this.state.pizzaParlors.length <= 2) {
+            pizzaStyling.push("partialList")
+        }
+
         return(
             <div className="pizzeriaContainer">
-                <button style={styling} onClick={this.clickHandler}>See the pizza</button>
-                {pizzaSection}
+                <button className="pizzaButton" style={styling} onClick={this.clickHandler}>See the pizza</button>
+                <div className={pizzaStyling}>
+                    {pizzaSection}
+                </div>
             </div>
         )
     }
