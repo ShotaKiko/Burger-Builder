@@ -19,6 +19,12 @@ class PizzaJoints extends React.Component{
         })
     }
 
+    removePizzeriaHandler = (pizzeriaId) => {
+        const newPizzaList = [ ...this.state.pizzaParlors]
+        newPizzaList.splice(pizzeriaId, 1)
+        this.setState({pizzaParlors: newPizzaList})
+    }
+
     
     render(){
         const styling ={
@@ -36,7 +42,9 @@ class PizzaJoints extends React.Component{
                 <div className="pizzasRendered">
                     
                     {this.state.pizzaParlors.map((pizzeria, id) => {
-                        return <Pizzeria 
+                        return <Pizzeria
+                            click={() => this.removePizzeriaHandler(id)}
+                            key={pizzeria.id} 
                             name={pizzeria.name}
                             motto={pizzeria.motto}
                         />
