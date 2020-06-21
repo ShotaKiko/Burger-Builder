@@ -18,22 +18,6 @@
     font-style: italic;
 }
 
-.partialList {
-    /* border: 3px dashed green; */
-    width: 80%;
-    height: 50vh;
-    margin-top: 10px;
-}
-
-.fullList {
-    /* border: 5px solid blue; */
-    width: 75%;
-    height: 50vh;
-    margin-top: 10px;
-    display: flex;
-    margin: 0 auto;
-}
-
 .pizzasRendered{
     /* border: 1px solid black; */
     width: 100%;

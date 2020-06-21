@@ -54,18 +54,10 @@ class PizzaJoints extends React.Component{
             styling.backgroundColor = "green"
         }
         
-        let pizzaStyling = []
-        if (this.state.pizzaParlors.length >= 3 ) {
-            pizzaStyling.push("fullList")
-        }
-        if (this.state.pizzaParlors.length <= 2) {
-            pizzaStyling.push("partialList")
-        }
-
         return(
             <div className="pizzeriaContainer">
                 <button className="pizzaButton" style={styling} onClick={this.clickHandler}>See the pizza</button>
-                <div className={pizzaStyling}>
+                <div>
                     {pizzaSection}
                 </div>
             </div>
