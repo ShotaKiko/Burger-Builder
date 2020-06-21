@@ -31,7 +31,8 @@ class PizzaJoints extends React.Component{
             color:"whitesmoke",
             backgroundColor:"steelblue",
             width:"10%",
-            height:"40px"
+            height:"40px",
+            marginTop:"2vh",
         }
 
         let pizzaSection = null;

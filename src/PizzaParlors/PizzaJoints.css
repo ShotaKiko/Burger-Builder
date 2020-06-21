@@ -1,9 +1,7 @@
 .pizzeriaContainer{
     /* border: 2px solid red; */
     width: 75%;
-    height: 50vh;
     margin-top: 10px;
-    
 }
 
 .pizzeria{
@@ -22,6 +20,7 @@
     /* border: 1px solid black; */
     width: 100%;
     display: flex;
+    justify-content: center;
     margin: auto;
 }
 

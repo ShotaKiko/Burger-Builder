@@ -2,80 +2,80 @@
     /* border: 2px solid red; */
     color: slateblue;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px slateblue;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .mcdonaldsContainer{
     /* border: 1px solid blue; */
     color: darkgoldenrod;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px darkgoldenrod;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .wendysContainer{
     color: darkred;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px darkred;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .whataburgerContainer{
     color: orangered;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px orangered;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .inNOutContainer{
     color: peru;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px peru;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .CarlsContainer{
     color: red;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px red;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .whiteCastleContainer{
     color: skyblue;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px skyblue;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
 
 .redRobinContainer{
     color: #800020;
     border: 1px solid #eee;
-    margin: 1vh;
+    margin: 1.5vh;
     box-shadow: 0px 3px 5px #800020;
     border-radius: 5px;
     padding-bottom: 5px;
-    width: 35%;
+    width: 20%;
 }
